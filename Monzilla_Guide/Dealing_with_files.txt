@@ -1,0 +1,11 @@
+Dealing with files 
+https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/Dealing_with_files
+
+When making file names and locations it is advised that lower case is used and hyphen instead of underscore
+
+The short answer is that you should use a hyphen for your file names. The Google search engine treats a hyphen as a word separator but does not regard an underscore that way. 
+For these reasons, it is best to get into the habit of writing your folder and file names lowercase with no spaces and with words separated by hyphens, 
+at least until you know what you're doing. That way you'll bump into fewer problems later down the road
+
+structure: 
+index.html #contains homepage content 

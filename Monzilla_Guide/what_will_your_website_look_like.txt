@@ -1,0 +1,4 @@
+what will your website look like
+
+The link to this doc is here, discusses the importance of designing a website before you start it 
+https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/What_will_your_website_look_like

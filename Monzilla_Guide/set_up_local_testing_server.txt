@@ -1,0 +1,25 @@
+Info on how to set up a local testing server using python. The info is on this page: 
+https://developer.mozilla.org/en-US/docs/Learn/Common_questions/set_up_a_local_testing_server
+
+Local files versus remote files. Most files can just be hosted locally on the browser. 
+
+Running a simple local http server
+
+# If Python version returned above is 3.X
+# On Windows, try "python -m http.server" or "py -3 -m http.server"
+python3 -m http.server
+
+this generates the local server in your browser, use 
+
+localhost:8000
+
+to run this in the browser and show your server. 
+
+to run serve side languages locally, use the following for the different languages 
+
+To run Python server-side code, you'll need to use a Python web framework. There are many popular Python web frameworks, such as Django (a guide is available), Flask, and Pyramid.
+To run Node.js (JavaScript) server-side code, you'll need to use raw node or a framework built on top of it. Express is a good choice — see Express Web Framework (Node.js/JavaScript).
+To run PHP server-side code, launch PHP's built-in development server : 
+cd path/to/your/php/code
+php -S localhost:8000
+

@@ -1,0 +1,55 @@
+CSS Basics 
+https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics
+
+CSS (Cascading Style Sheets) is the code that styles web content. CSS basics walks through what you need to get started. We'll answer questions like: How do I make text red? How do I make content display at a certain location in the (webpage) layout? How do I decorate my webpage with background images and colors?
+
+to make style sheet with paragraphs having red writing 
+
+p {
+  color: red;
+}
+
+apply this to index.html by putting this in the <head></head> section 
+<link href="styles/style.css" rel="stylesheet">
+
+Selector
+This is the HTML element name at the start of the ruleset. It defines the element(s) to be styled (in this example, <p> elements). To style a different element, change the selector.
+
+Declaration
+This is a single rule like color: red;. It specifies which of the element's properties you want to style.
+
+Properties
+These are ways in which you can style an HTML element. (In this example, color is a property of the <p> elements.) In CSS, you choose which properties you want to affect in the rule.
+
+Property value
+To the right of the property—after the colon—there is the property value. This chooses one out of many possible appearances for a given property. (For example, there are many color values in addition to red.)
+
+list of selectors on this a link to large list is 
+https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Selectors
+Selector name	What does it select	Example
+Element selector (sometimes called a tag or type selector)	All HTML elements of the specified type.	p
+selects <p>
+ID selector	The element on the page with the specified ID. On a given HTML page, each id value should be unique.	#my-id
+selects <p id="my-id"> or <a id="my-id">
+Class selector	The element(s) on the page with the specified class. Multiple instances of the same class can appear on a page.	.my-class
+selects <p class="my-class"> and <a class="my-class">
+Attribute selector	The element(s) on the page with the specified attribute.	img[src]
+selects <img src="myimage.png"> but not <img>
+Pseudo-class selector	The specified element(s), but only when in the specified state. (For example, when a cursor hovers over a link.)	a:hover
+selects <a>, but only when the mouse pointer is hovering over the link.
+
+fonts and text 
+link fonts at the start of the html 
+
+padding, the space around the content. In the example below, it is the space around the paragraph text.
+border, the solid line that is just outside the padding.
+margin, the space around the outside of the border.
+
+width (of an element).
+background-color, the color behind an element's content and padding.
+color, the color of an element's content (usually text).
+text-shadow sets a drop shadow on the text inside an element.
+display sets the display mode of an element. (keep reading to learn more)
+
+use width to change image 
+extra learning on https://developer.mozilla.org/en-US/docs/Learn/CSS
